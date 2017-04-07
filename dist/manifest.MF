@@ -20,6 +20,7 @@ vendor/built/rxjs/observable/ScalarObservable.js
 vendor/built/rxjs/observable/EmptyObservable.js
 vendor/built/rxjs/observable/ArrayObservable.js
 vendor/built/rxjs/OuterSubscriber.js
+vendor/built/rxjs/util/isArrayLike.js
 vendor/built/rxjs/util/isPromise.js
 vendor/built/rxjs/symbol/iterator.js
 vendor/built/rxjs/InnerSubscriber.js

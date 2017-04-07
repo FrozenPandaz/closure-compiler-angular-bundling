@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@angular/animations@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-4.0.1.tgz#154420c8ee5c22fbaf1434b6d156150cf5218da6"
+
 "@angular/common@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.0.1.tgz#df488eada842b2d841ded750712292b18387b5b0"
@@ -340,9 +344,15 @@ rimraf@~2.2.6:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
 
-rxjs@5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.0.3.tgz#fc8bdf464ebf938812748e4196788f392fef9754"
+"rxjs-src@https://github.com/ReactiveX/rxjs.git#5.3.0":
+  version "5.3.0"
+  resolved "https://github.com/ReactiveX/rxjs.git#bc1e1e53897aeca61288378cc8e2b33ed20dbbcf"
+  dependencies:
+    symbol-observable "^1.0.1"
+
+rxjs@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.3.0.tgz#d88ccbdd46af290cbdb97d5d8055e52453fabe2d"
   dependencies:
     symbol-observable "^1.0.1"
 
@@ -446,9 +456,9 @@ tsickle@^0.21.0:
     source-map "^0.5.6"
     source-map-support "^0.4.2"
 
-typescript@~2.1:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.1.6.tgz#40c7e6e9e5da7961b7718b55505f9cac9487a607"
+typescript@~2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.2.tgz#606022508479b55ffa368b58fee963a03dfd7b0c"
 
 underscore@^1.8.3:
   version "1.8.3"

@@ -3,4 +3,5 @@ built
 **/*.ngfactory.ts
 **/*.ngsummary.json
 npm-debug.log
-dist/*_renaming_report
+yarn.lock
+dist
