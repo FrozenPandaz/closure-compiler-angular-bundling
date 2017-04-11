@@ -32,7 +32,7 @@
     "build": "ngc",
     "serve": "http-server .",
     "postbuild": "npm run closure",
-    "closure": "java -jar node_modules/google-closure-compiler/compiler.jar --flagfile closure.conf $(find vendor/built/rxjs -name \\*.js) $(find vendor/built/moment -name \\*.js) built/*.js",
+    "closure": "java -jar node_modules/google-closure-compiler/compiler.jar --flagfile closure.conf $(find vendor/built/rxjs -name \\*.js) built/*.js",
     "explore": "source-map-explorer dist/bundle.js dist/bundle.js.map",
     "webpack": "webpack"
   },
